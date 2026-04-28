@@ -1,0 +1,14 @@
+[theme]
+name=CyberGreen
+background=#050505
+foreground=#00ff88
+cursor=#00ffaa
+selection=#114422
+chrome=#0d1117
+chrome_text=#d8ffe9
+accent=#0cff9b
+font=Consolas
+font_size=14
+smooth_cursor=true
+glow=true
+crt=false

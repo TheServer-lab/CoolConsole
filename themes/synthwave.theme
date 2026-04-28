@@ -1,0 +1,14 @@
+[theme]
+name=Synthwave
+background=#12061e
+foreground=#5af4ff
+cursor=#ff4fd8
+selection=#2f1d55
+chrome=#140a26
+chrome_text=#f7d5ff
+accent=#ff8e3c
+font=Consolas
+font_size=14
+smooth_cursor=true
+glow=true
+crt=false
