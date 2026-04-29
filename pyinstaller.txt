@@ -1,6 +1,8 @@
 py -3.13 -m PyInstaller ^
---onefile ^
---windowed ^
---collect-all PyQt6 ^
---icon="C:\Users\dasso\Downloads\coolconsole.ico" ^
-C:\Users\dasso\Downloads\CoolConsole\main.py
+  --onefile ^
+  --windowed ^
+  --icon="C:\Users\dasso\Downloads\CoolConsole\assets\coolconsole.ico" ^
+  --add-data "C:\Users\dasso\Downloads\CoolConsole\assets;assets" ^
+  --add-data "C:\Users\dasso\Downloads\CoolConsole\themes;themes" ^
+  --add-data "C:\Users\dasso\Downloads\CoolConsole\profiles;profiles" ^
+  C:\Users\dasso\Downloads\CoolConsole\main.py
