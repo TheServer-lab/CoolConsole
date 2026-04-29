@@ -1,8 +1,10 @@
+cd C:\Users\dasso\Downloads\CoolConsole
+
 py -3.13 -m PyInstaller ^
   --onefile ^
   --windowed ^
-  --icon="C:\Users\dasso\Downloads\CoolConsole\assets\coolconsole.ico" ^
-  --add-data "C:\Users\dasso\Downloads\CoolConsole\assets;assets" ^
-  --add-data "C:\Users\dasso\Downloads\CoolConsole\themes;themes" ^
-  --add-data "C:\Users\dasso\Downloads\CoolConsole\profiles;profiles" ^
-  C:\Users\dasso\Downloads\CoolConsole\main.py
+  --icon assets\coolconsole.ico ^
+  --add-data "assets;assets" ^
+  --add-data "themes;themes" ^
+  --add-data "profiles;profiles" ^
+  main.py
