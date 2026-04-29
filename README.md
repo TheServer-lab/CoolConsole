@@ -1,4 +1,3 @@
-```md
 # CoolConsole
 
 Modern customizable terminal experience for Windows.
@@ -113,4 +112,4 @@ Made by TheServer-lab.
 If you enjoy CoolConsole, consider supporting the project on itch.io.
 
 # ⭐ Star this repository if you like the project!
-```
+
